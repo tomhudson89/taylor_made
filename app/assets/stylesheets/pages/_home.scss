@@ -1,1 +1,60 @@
 // Specific CSS for your home-page
+// Specific CSS for your home-page
+.banner-headline {
+  text-align: center;
+}
+
+.inline-form {
+  display: flex;
+  justify-content: center;
+}
+
+
+.hiw-headline {
+  h3 {
+    color: $gray;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p {
+    color: $light-gray;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: lighter;
+  }
+}
+
+.three-steps {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  i {
+    font-size: 30px;
+  }
+
+  p {
+    color: $light-gray;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: lighter;
+  }
+
+}
+
+.hiw-item {
+  text-align: center;
+}
+// Specific CSS for your home-page
+
+.explore-events-text {
+  padding-bottom: 10px;
+}
+
+.image-add-friends {
+  margin-top: 12px;
+}
+
+.image-fun {
+  margin-top: 5px;
+}

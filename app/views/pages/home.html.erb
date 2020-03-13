@@ -1,2 +1,42 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="container">
+    <h1 class="banner-headline"><strong> Taylor made recommendations you can trust</strong></h1>
+    <br>
+    <div class="inline-form">
+      <%= render 'shared/form_inline' %>
+    </div>
+  </div>
+</div>
+<div class="hiw-headline">
+  <h3><strong>How it works</strong></h3>
+  <p>Share a recommendation with your close contacts</p>
+</div>
+
+<div class="container">
+  <div class="row three-steps">
+    <div class="col-md-4">
+      <div class="hiw-item">
+<!--         <%#= image_tag "booking.svg", alt: "booking", width: 200 %>
+ -->        <h5 class="mt-3">Recommend </h5>
+        <p>Write a recommendation for your places</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="hiw-item">
+<!--         <%#= image_tag "add_friends.svg", alt: "add_friends", width: 200, class: "image-add-friends" %>
+ -->        <h5 class="mt-4">Share </h5>
+        <p>Share this with only your closest contacts</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="hiw-item">
+<!--         <%#= image_tag "fun.svg", alt: "fun", width: 200, class: "image-fun"  %>
+ -->        <h5 class="mt-4">Enjoy!</h5>
+        <p>Enjoy the recommendations of others</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
